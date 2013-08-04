@@ -10,3 +10,10 @@ It's C++ and, well, uses SFML. It uses Lua and TinyML too.
 Do not take that code to learn, the goal wasn't to do the cleaner code but to have a working game !
 
 
+Download
+===
+
+*	[Linux (x32)](http://loicboutter.fr/dl/lands_linux_x32_release_v1.tar.gz)
+*	[Linux (x64)](http://loicboutter.fr/dl/lands_linux_x32_release_v1.tar.gz)
+*	[Windows](http://loicboutter.fr/dl/lands_windows_v1.zip)
+
