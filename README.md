@@ -1,7 +1,7 @@
 LandS
 =====
 
-[screen](!http://loicboutter.fr/images/sfml-jam-lands/screen3.png)
+![screen](http://loicboutter.fr/images/sfml-jam-lands/screen3.png)
 
 * * *
 
