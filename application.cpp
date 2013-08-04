@@ -71,6 +71,8 @@ void Application::processEvents()
         mStateStack.handleEvent(event);
         if(event.type == sf::Event::Closed)
             mWindow.close();
+        else if(event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::F1)
+            mShowStatistics = !mShowStatistics;
     }
 }
 
@@ -85,7 +87,8 @@ void Application::render()
     mStateStack.draw();
 
     mWindow.setView(mWindow.getDefaultView());
-    mWindow.draw(mStatisticsText);
+    if(mShowStatistics)
+        mWindow.draw(mStatisticsText);
     mWindow.display();
 }
 
